@@ -30,7 +30,7 @@ target_link_libraries(main ${OPENGL_gl_LIBRARY})
 target_link_libraries(main ${OPENGL_glu_LIBRARY})
 target_link_libraries(main ${X11_LIBRARIES})
 target_link_libraries(main ${CMAKE_THREAD_LIBS_INIT})
-target_link_libraries(main ${CMAKE_DL_LIBS})
 target_link_libraries(main glad)
+target_link_libraries(main ${CMAKE_DL_LIBS})
 
  
